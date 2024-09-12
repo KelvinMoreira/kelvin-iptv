@@ -25,9 +25,11 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 120px;
+    gap: 100px;
     align-items: center;
-    padding: 25px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    
     background-color: rgba(0, 0, 0, 0.721);
 }
 
@@ -63,9 +65,9 @@ header{
     font-size: 24px;
 }
 
-.botaoQueroTeste{
+.botaoTesteGratis{
     height: 50px;
-    width: 310px;
+    width: 220px;
     font-size: 18px;
     font-family: 'Poppins';
     letter-spacing: 1px;
@@ -76,8 +78,8 @@ header{
     border: 2px solid;
 }
 
-.botaoQueroTeste:hover{
-    width: 335px;
+.botaoTesteGratis:hover{
+    width: 250px;
     font-size: 20px;
     transition: 500ms;
     cursor: pointer;
